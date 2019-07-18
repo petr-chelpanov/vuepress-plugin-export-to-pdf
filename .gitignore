@@ -1,3 +1,6 @@
+example/.pdf/*
+example/.vuepress/dist/*
+
 # Logs
 logs
 *.log

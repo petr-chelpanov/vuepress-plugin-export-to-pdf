@@ -1,0 +1,22 @@
+{
+  "name": "vuepress-plugin-export-to-pdf",
+  "version": "0.1.0",
+  "description": "Export your VuePress site to pdf",
+  "main": "index.js",
+  "repository": "https://github.com/petr-chelpanov/vuepress-plugin-export-to-pdf.git",
+  "author": "petr-chelpanov <petr.chelpanov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev example",
+    "docs:build": "vuepress build example",
+    "docs:export": "vuepress export-to-pdf example"
+  },
+  "devDependencies": {
+    "@vuepress/shared-utils": "^1.0.2",
+    "vuepress": "^1.0.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "puppeteer": "^1.18.1"
+  }
+}
